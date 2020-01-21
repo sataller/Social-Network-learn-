@@ -1,0 +1,6 @@
+.header{
+    grid-area:h;
+    background-color: green;
+    border-radius: 20px ;
+    margin:5px;
+    }

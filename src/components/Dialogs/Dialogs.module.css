@@ -1,0 +1,25 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "users messages";
+    padding: 10px;
+
+}
+
+.users{
+    grid-area: users;
+border-right:1px grey solid;
+padding: 10px;
+}
+
+.messages{
+    padding: 10px;
+
+    grid-area: messages;
+}
+
+.users a{
+    text-decoration: none;
+    color:white;
+}

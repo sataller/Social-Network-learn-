@@ -1,0 +1,6 @@
+.friendbar{
+    display: inline-flex;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 20%;
+    padding:10px;
+}
