@@ -12,7 +12,7 @@ const MyPosts = (props) => {
 
     return (
         <div className={s.posts}>
-            <NewPost />
+            <NewPost addPost={props.addPost}/>
             {postElement}  {/* 3 */}
 
         </div>

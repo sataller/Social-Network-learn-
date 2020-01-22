@@ -16,13 +16,22 @@ let state = {
     },
     profilePage: {
         posts: [
-            { text: "Hello friend!", lickCount: "10" },
-            { text: "My first post", lickCount: "15" }
+            { id:1, text: "Hello friend!", lickCount: "10" },
+            { id:2, text: "My first post", lickCount: "15" }
         ]
     }
 }
 
+export let addPost = (postMessage) =>{
+debugger;
+    let newPost = {
+        id:3,
+        text: {postMessage},
+        lickCounter:0,
+    };
 
+    state.profilePage.posts.push(newPost);
+}
 
 export default state
 
